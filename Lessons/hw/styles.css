@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+}
+
+div{
+  background-color: white;
+width: 800px;
+  margin: auto;
+  padding: 20px;
+
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+header{
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+}
+
+nav{
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a{
+  display: inline-block;
+  width: 100px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {background-color: maroon; }
+nav a.youarehere {background-color: goldenrod;}
+
+main{
+  display: flex;
+}
+
+article{ width: 60%}
+
+aside{ width: 40%;
+padding: 20px;
+background-color: grey;
+}
+
+img {max-width: 100%}
